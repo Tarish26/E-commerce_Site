@@ -1,7 +1,3 @@
-Here’s a concise README for your e-commerce site:  
-
----
-
 # E-Commerce Website 🛒  
 
 My very first project in web development! This e-commerce site is built using **HTML**, **CSS**, and **PHP**, showcasing basic functionality and a clean user interface.  
@@ -30,4 +26,3 @@ This project marked the beginning of my journey into coding, sparking a passion 
 
 --- 
 
-You can further tweak it to match the structure of your repository or add details like screenshots if available!
