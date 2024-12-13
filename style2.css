@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* filter: invert(1); */
+    /* color: white; */
+  }
+  
+  body{
+    background-color: beige;
+    height: 100%;
+    
+  }
+  
+  
+  .navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+    font-size: 25px;
+    z-index: 3;
+  }
+  
+  .menu {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .menu li {
+    display: flex;
+    position: relative;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo{
+    display: flex;
+    position: relative;
+    right: 35%;
+    width: 150px;
+  }
+   
+  .fa-user, .fa-cart-shopping, .fa-search{
+    position: relative;
+    left: 550px;
+  }
+  
+  .fa-user{
+    margin-right: 50px;
+  }
+  
+  .fa-search{
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  
+  
+  #profileDropdown{
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  top: 50px;
+  left: 465px;
+  background-color: rgba(0, 0, 0, 0.618);
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 15px;
+  }
+  
+  .logOut{
+  position: relative;
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  left: 40px;
+  }
+  #navbar2{
+    width: 100%;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    z-index: 3;
+    
+  }
+  
+  /* .searchBar{
+    position: relative;
+    width: 500px;
+    top: 23px;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+  } */
+  
+  
+  .fa-xmark{
+    position: relative;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.477);
+    filter: invert(1);
+    cursor: pointer;
+    padding: 2px;
+    top: -5px;
+  }
+  
+  
+  #searchIcon2{
+    display: flex;
+    position: relative;
+    font-size: 28px;
+    left: 6px;
+    top: 8px;
+  }
+  
+  #input{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    top: 20px;
+  }
+  
+  #input::placeholder{
+    font-size: 18px;
+  }
+  
+  #submit{
+    display: flex;
+    position: relative;
+    left: 450px;
+    width: 50px;
+    height: 50px;
+    top: -30px;
+  }
+  
+  #searchIcon2{
+    position: relative;
+    font-size: 35px;
+    top: px;
+  }
+  
+  .banner{
+    display: flex;
+    position: relative;
+    top: 70px;
+    /* overflow: scroll; */
+    overflow-y: hidden;
+    overflow-x: visible;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .hide-banner{
+    display: flex;
+    position: relative;
+    top: 50px;
+    background-color: beige;
+    z-index: 1;
+    width: 100%;
+    height: 20px;
+  }
+  
+  .container{
+    display: flex;
+    position: relative;
+    /* background-color: pink; */
+    top: 25px;
+    z-index: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .container h2{
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .items{
+    display: flex;
+    position: relative;
+    top: 0px;
+    /* background-color: green; */
+    height: 400px;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  } 
+
+  .card{
+   width: 250px;
+    margin-right: 7px;
+  }
+   
+  .card img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* background-color: rgba(0, 0, 0, 0.284); */
+    padding: 0;
+  }
+
+  
+  .card img:hover{
+    transform: scale(1.6);
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    transition-duration: 0.8s;
+    background-color: #fff;
+  
+  }
+
+  .desc{
+    background-color: rgba(0, 0, 0, 0.241);
+    font-size: 18px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+.addCart{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+  .addCart a{
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  .view a{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+  .view a:hover{
+    background-color: rgb(164, 35, 35);
+    border-radius: 5px;
+  }
+  
+  footer{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.556);
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    top: 40px;
+  }
+  
+  .aboutUs{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-size: 18px;
+  }
+  
+  .aboutUs p{
+    position: relative;
+    top: -15px;
+  }
+  
+  .separation{
+    margin: 0 40px;
+  }
+  
+  .submit{
+    position: relative;
+    top: 0px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    left: 0px;
+  
+  }
+  
+  .followUs{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .followUs h3{
+    position: relative;
+    left: -10px;
+  }
+  
+  .followUs img{
+    display: flex;
+    position: relative;
+    top: 5px;
+  
+  }
+  
+
+  #cartItems{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 50px;
+    color: #fff;
+    font-size: 18px;
+    left: 300px;
+    background-color: rgba(0, 0, 0, 0.618);
+    z-index: 2;
+    width: 340px;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #fff;
+    padding-top: 30px;
+    font-size: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    height: 91vh;
+  }
+
+  #cartItems img{
+    display: flex;
+    position: relative;
+    width: 100px;
+    margin-top: 50px;
+    left: 25%;
+  }
+
+  #contShopping{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+#darkMode{
+  position: absolute;
+  left: 450px;
+  top: -15px;
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
